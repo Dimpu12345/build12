@@ -1,10 +1,10 @@
-name: CI/CD Workflow  
+name: CI/CD12 Workflow  
 
 on:
-  
-  push:
+  workflow_dispatch:
+  pull_request:
     branches:
-      - main
+      - branch3
 
 jobs:
   build:
