@@ -1,7 +1,7 @@
 name: CI/CD12 Workflow  
 
 on:
-  workflow_dispatch:
+
   pull_request:
     branches:
       - branch4
